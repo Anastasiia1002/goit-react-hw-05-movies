@@ -1,0 +1,19 @@
+.nav {
+  display: flex;
+  width: 400px;
+  margin: 10px auto;
+  justify-content: space-around;
+}
+.link {
+  font-size: 30px;
+  padding: 10px 20px;
+  text-decoration: none;
+
+  background-color: rgba(250, 215, 248, 0.495);
+  border-radius: 10px;
+  color: white;
+}
+/* .link.active {
+  color: rgb(239, 131, 230);
+  font-weight: bold;
+} */

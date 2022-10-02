@@ -1,7 +1,7 @@
-import { getMovieCastApi } from '../api/api';
+import { getMovieCastApi } from '../../api/api';
 import { useParams } from 'react-router-dom';
 import { useState, useEffect } from 'react';
-import Loader from './Loader';
+import Loader from '../Loader/Loader';
 import s from './Cast.module.css';
 
 const Status = {
@@ -11,7 +11,7 @@ const Status = {
   REJECTED: 'rejected',
 };
 
- const Cast=() =>{
+const Cast = () => {
   const { movieId } = useParams();
   // const movieId = getMovieCastApi(id);
   const [actors, setActors] = useState();

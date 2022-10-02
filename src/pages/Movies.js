@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react';
 import { getSearchApi } from '../api/api';
 import s from './pages.module.css';
 import { ImSearch } from 'react-icons/im';
-import Loader from '../components/Loader';
+import Loader from '../components/Loader/Loader';
 
 const Status = {
   IDLE: 'idle',

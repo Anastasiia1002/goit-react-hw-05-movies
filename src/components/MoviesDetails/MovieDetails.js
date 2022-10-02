@@ -9,8 +9,8 @@ import {
   //   useHistory,
   //   useLocation,
 } from 'react-router-dom';
-import { getMovieIdApi } from '../api/api';
-import Loader from '../components/Loader';
+import { getMovieIdApi } from '../../api/api';
+import Loader from '../Loader/Loader';
 import Moment from 'react-moment';
 import s from './MovieDetails.module.css';
 

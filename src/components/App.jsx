@@ -1,6 +1,6 @@
 import { Navigate, Routes, Route } from 'react-router-dom';
 import { lazy } from 'react';
-import Layout from './Layout';
+import Layout from './Layout/Layout';
 // import Home from '../pages/Home';
 // import Movies from '../pages/Movies';
 // import MovieDetails from './MovieDetails';
@@ -11,9 +11,9 @@ import Layout from './Layout';
 const Home = lazy(() => import('../pages/Home'));
 // const Movies = createAsyncComponent('../pages/Movies');
 const Movies = lazy(() => import('../pages/Movies'));
-const MovieDetails = lazy(() => import('./MovieDetails'));
-const Cast = lazy(() => import('./Cast'));
-const Reviews = lazy(() => import('./Reviews'));
+const MovieDetails = lazy(() => import('./MoviesDetails/MovieDetails'));
+const Cast = lazy(() => import('./Cast/Cast'));
+const Reviews = lazy(() => import('./Reviews/Reviews'));
 // const Loader = lazy(() => import('./Loader'));
 export const App = () => {
   return (

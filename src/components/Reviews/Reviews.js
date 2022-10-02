@@ -1,7 +1,7 @@
-import { getMovieReviewApi } from '../api/api';
+import { getMovieReviewApi } from '../../api/api';
 import { useParams } from 'react-router-dom';
 import { useState, useEffect } from 'react';
-import Loader from './Loader';
+import Loader from '../Loader/Loader';
 import s from './Reviews.module.css';
 
 const Status = {
